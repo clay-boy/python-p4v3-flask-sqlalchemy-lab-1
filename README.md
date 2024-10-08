@@ -34,7 +34,7 @@ $ export FLASK_RUN_PORT=5555
 Edit `server/models.py` to add a new model class named `Earthquake` that
 inherits from both `db.Model` and `SerializerMixin`.
 
-Add the following attributes to the `Earthquake` model:
+Add the following attributes to the `Earthexplain the self.id or self.phone what is the self forexplain the self.id or self.phone what is the self forquake` model:
 
 - a string named `__tablename__` assigned to the value `"earthquakes"`.
 - a column named `id` to store an int that is the primary key.
@@ -44,7 +44,7 @@ Add the following attributes to the `Earthquake` model:
 
 Add a `__repr__` method to return a string that formats the attributes id,
 magnitude, location, and year as a comma-separated sequence as shown:
-
+explain the self.id or self.phone what is the self for
 ```text
 <Earthquake 1, 9.5, Chile, 1960>
 ```
